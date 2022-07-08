@@ -12,6 +12,12 @@ for (int counter = 0; counter < array.length; counter++)
 total += array[counter];
 return total / array.length;
 }
+public double getMediaGeometrica() {
+double total = 1;
+for (int counter = 0; counter < array.length; counter++)
+total *= array[counter];
+return Math.pow(total, 1.0d/array.length);
+}
 public double getSomaDosElementos() {
 double total = 0;
 for (int counter = 0; counter < array.length; counter++)

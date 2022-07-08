@@ -22,7 +22,8 @@ for ( i = 0; i < dados.length; i++){
 e.setArray(dados);
 
 System.out.print("-----------------------------------------------");
-System.out.print("\n Media Aritmética: "+ new BigDecimal(e.getMediaAritmetica()).setScale(1, RoundingMode.HALF_EVEN));
+System.out.print("\n Média Aritmética: "+ new BigDecimal(e.getMediaAritmetica()).setScale(1, RoundingMode.HALF_EVEN));
+System.out.print("\n Média Geométrica: "+ new BigDecimal(e.getMediaGeometrica()).setScale(1, RoundingMode.HALF_EVEN));
 System.out.print("\n Moda: "+ new BigDecimal(e.getModa()).setScale(1, RoundingMode.HALF_EVEN));
 System.out.print("\n Mediana: "+ new BigDecimal(e.getMediana()).setScale(1, RoundingMode.HALF_EVEN));
 System.out.print("\n Desvio Padrão: "+ new BigDecimal(e.getDesvioPadrao()).setScale(1, RoundingMode.HALF_EVEN));
