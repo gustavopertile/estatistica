@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 public class EstatisticaDescritiva {
 private double array[];
-public double getPearson() {
+public double getCoeficienteVariacao() {
 return (getDesvioPadrao() / getMediaAritmetica()) * 100;
 }
 public double getMediaAritmetica() {
@@ -92,9 +92,6 @@ moda = new Double(array[count]);
 }
 }
 return moda;
-}
-public double getCoefAssimetria() {
-return (getMediaAritmetica() - getModa()) / getDesvioPadrao();
 }
 public double[] getArray() {
 return array;
